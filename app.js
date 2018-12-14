@@ -1,1 +1,4 @@
-console.log('hello world');
+function log(message){
+    console.log(message);
+}
+module.exports.log=log;
